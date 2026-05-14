@@ -164,8 +164,8 @@ const Nav = () => {
         transition: "background 0.4s, border-bottom 0.4s",
       }}
     >
-      <a href="#" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.35rem", fontWeight: 500, letterSpacing: "0.08em", color: tokens.white, textDecoration: "none" }}>
-        Altar<span style={{ color: tokens.gold }}>.</span>Systems
+      <a href="#" style={{ textDecoration: "none" }}>
+        <img src="/logo.png" alt="Altar Systems" style={{ height: "2.2rem", display: "block" }} />
       </a>
 
       {/* Desktop links */}
@@ -636,8 +636,8 @@ const Footer = () => (
     <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 4rem" }}>
       <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr 1fr", gap: "4rem", marginBottom: "4rem" }}>
         <div>
-          <a href="#" style={{ display: "block", fontFamily: "'Cormorant Garamond', serif", fontSize: "1.2rem", fontWeight: 500, letterSpacing: "0.08em", color: tokens.white, textDecoration: "none", marginBottom: "1.5rem" }}>
-            Altar<span style={{ color: tokens.gold }}>.</span>Systems
+          <a href="#" style={{ display: "block", textDecoration: "none", marginBottom: "1.5rem" }}>
+            <img src="/logo.png" alt="Altar Systems" style={{ height: "1.8rem", display: "block" }} />
           </a>
           <p style={{ fontSize: "0.88rem", color: tokens.warmGray, lineHeight: 1.8, maxWidth: 280 }}>
             Professional audio, video, lighting, broadcast, and network integration for churches and sacred environments. Built with reverence. Designed with precision.
